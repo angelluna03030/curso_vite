@@ -15,7 +15,9 @@ const ContenidoImagen = ({ gifs }) => {
         // biome-ignore lint/correctness/useJsxKeyInIterable: <explanation>
         <div className="imagen">
           <motion.img
-        
+           whileHover={{
+            scale: 1.2,
+           }}
             initial="initial"
             animate="animate"
             width={"250"}
